@@ -1,0 +1,6 @@
+framework module Pods_SwiftTheme_Texture {
+  umbrella header "Pods-SwiftTheme_Texture-umbrella.h"
+
+  export *
+  module * { export * }
+}
