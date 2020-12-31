@@ -1,2 +1,2 @@
 # SwiftTheme_Texture
-a Demo user SwiftTheme for Texture
+a Demo use SwiftTheme for Texture
