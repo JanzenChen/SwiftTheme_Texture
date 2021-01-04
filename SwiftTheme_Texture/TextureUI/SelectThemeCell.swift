@@ -69,7 +69,7 @@ class SelectThemeCell: BaseCell {
             attributeTexts.append(text)
         }
         
-        detailNode.theme_attributesTexts = ThemeAttributedStringPicker.pickerWithAttributedStrings(attributeTexts)
+        detailNode.theme_attributedText = ThemeAttributedStringPicker.pickerWithAttributedStrings(attributeTexts)
     }
     
     override func layoutSpecThatFits(_ constrainedSize: ASSizeRange) -> ASLayoutSpec {

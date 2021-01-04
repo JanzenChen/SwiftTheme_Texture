@@ -37,7 +37,7 @@ PODS:
     - Texture/Core
 
 DEPENDENCIES:
-  - "SwiftTheme (from `/Users/chenjiajiang/Desktop/重要资料/SwiftTheme`)"
+  - SwiftTheme
   - Texture
 
 SPEC REPOS:
@@ -45,12 +45,8 @@ SPEC REPOS:
     - PINCache
     - PINOperation
     - PINRemoteImage
+    - SwiftTheme
     - Texture
-
-EXTERNAL SOURCES:
-  SwiftTheme:
-    :branch: dev_texture
-    :path: "/Users/chenjiajiang/Desktop/重要资料/SwiftTheme"
 
 SPEC CHECKSUMS:
   PINCache: 7a8fc1a691173d21dbddbf86cd515de6efa55086
@@ -59,6 +55,6 @@ SPEC CHECKSUMS:
   SwiftTheme: 585ead917c78ea3fc508437b0a141d29c034bdb0
   Texture: 2f109e937850d94d1d07232041c9c7313ccddb81
 
-PODFILE CHECKSUM: c0be125d77bb92bb04a133b481b3868d2e640ca5
+PODFILE CHECKSUM: a709532d62b40f8dc4e1b4445fa8dd9e73a61e2e
 
 COCOAPODS: 1.9.3

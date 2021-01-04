@@ -30,7 +30,7 @@ extension ASTextNode {
         set { ThemePicker.setThemePicker(self, "updateTextAttributes:", newValue) }
     }
     
-    var theme_attributesTexts: ThemeAttributedStringPicker? {
+    var theme_attributedText: ThemeAttributedStringPicker? {
         get { return ThemePicker.getThemePicker(self, "setAttributedText:") as? ThemeAttributedStringPicker }
         set { ThemePicker.setThemePicker(self, "setAttributedText:", newValue) }
     }
