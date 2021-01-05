@@ -7,6 +7,6 @@ target 'SwiftTheme_Texture' do
 
   # Pods for SwiftTheme_Texture
   pod "Texture"
-  pod "SwiftTheme", '~> 0.5.5'
+  pod "SwiftTheme", :git=>'https://github.com/JanzenChen/SwiftTheme.git' #'~> 0.5.5'
 
 end

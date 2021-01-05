@@ -37,7 +37,7 @@ PODS:
     - Texture/Core
 
 DEPENDENCIES:
-  - SwiftTheme
+  - SwiftTheme (from `https://github.com/JanzenChen/SwiftTheme.git`)
   - Texture
 
 SPEC REPOS:
@@ -45,8 +45,16 @@ SPEC REPOS:
     - PINCache
     - PINOperation
     - PINRemoteImage
-    - SwiftTheme
     - Texture
+
+EXTERNAL SOURCES:
+  SwiftTheme:
+    :git: https://github.com/JanzenChen/SwiftTheme.git
+
+CHECKOUT OPTIONS:
+  SwiftTheme:
+    :commit: 471493e54c6e97bc99b42d036c2d12cda06c834a
+    :git: https://github.com/JanzenChen/SwiftTheme.git
 
 SPEC CHECKSUMS:
   PINCache: 7a8fc1a691173d21dbddbf86cd515de6efa55086
@@ -55,6 +63,6 @@ SPEC CHECKSUMS:
   SwiftTheme: 585ead917c78ea3fc508437b0a141d29c034bdb0
   Texture: 2f109e937850d94d1d07232041c9c7313ccddb81
 
-PODFILE CHECKSUM: 5770511bb272da7cb48fd2d5ea8a54dd07673d56
+PODFILE CHECKSUM: 8e01183d9d727063a2c7ceb24c9e6e0fe89c2584
 
 COCOAPODS: 1.9.3
