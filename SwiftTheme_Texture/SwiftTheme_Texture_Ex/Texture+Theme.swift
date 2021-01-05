@@ -21,7 +21,7 @@ extension ASTextNode {
     }
 }
 
-/// 如果Node.view中没有SwiftTheme中的属性,你可以自己实现类似下面的拓展, 或者你可以箭筒SwiftTheme的通知ThemeUpdateNotification
+/// 如果Node.view中没有SwiftTheme中的属性,你可以自己实现类似下面的拓展, 或者你可以监听SwiftTheme的通知ThemeUpdateNotification
 /// If Node.view does not have the Theme attribute in SwiftTheme, you can implementation extension like this,Or you can use SwiftTheme notification 'ThemeUpdateNotification'
 @objc public extension ASTextNode
 {
