@@ -7,6 +7,6 @@ target 'SwiftTheme_Texture' do
 
   # Pods for SwiftTheme_Texture
   pod "Texture"
-  pod "SwiftTheme"
+  pod "SwiftTheme", '~> 0.5.5'
 
 end
