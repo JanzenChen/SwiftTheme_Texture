@@ -19,8 +19,8 @@
 		8354EC42259C712E00615865 /* SelectThemeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8354EC41259C712E00615865 /* SelectThemeCell.swift */; };
 		8354EC44259C716000615865 /* SwitchNightCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8354EC43259C716000615865 /* SwitchNightCell.swift */; };
 		8354EC46259C717100615865 /* ChangeThemeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8354EC45259C717100615865 /* ChangeThemeCell.swift */; };
-		8354EC49259C728500615865 /* ASDK+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8354EC48259C728500615865 /* ASDK+Theme.swift */; };
-		8354EC4B259C799A00615865 /* NSAttributedString+ASDK+Merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8354EC4A259C799A00615865 /* NSAttributedString+ASDK+Merge.swift */; };
+		8354EC49259C728500615865 /* Texture+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8354EC48259C728500615865 /* Texture+Theme.swift */; };
+		8354EC4B259C799A00615865 /* NSAttributedString+Texture+Merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8354EC4A259C799A00615865 /* NSAttributedString+Texture+Merge.swift */; };
 		8354EC4D259C8EE900615865 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8354EC4C259C8EE900615865 /* BaseCell.swift */; };
 		8354EC4F259D7A8000615865 /* SelectThemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8354EC4E259D7A8000615865 /* SelectThemeViewController.swift */; };
 		B19EF85BE3A0F0B6EF47808E /* Pods_SwiftTheme_Texture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9249DE7C6504FB495ED102BB /* Pods_SwiftTheme_Texture.framework */; };
@@ -43,8 +43,8 @@
 		8354EC41259C712E00615865 /* SelectThemeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectThemeCell.swift; sourceTree = "<group>"; };
 		8354EC43259C716000615865 /* SwitchNightCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchNightCell.swift; sourceTree = "<group>"; };
 		8354EC45259C717100615865 /* ChangeThemeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeThemeCell.swift; sourceTree = "<group>"; };
-		8354EC48259C728500615865 /* ASDK+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ASDK+Theme.swift"; sourceTree = "<group>"; };
-		8354EC4A259C799A00615865 /* NSAttributedString+ASDK+Merge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+ASDK+Merge.swift"; sourceTree = "<group>"; };
+		8354EC48259C728500615865 /* Texture+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Texture+Theme.swift"; sourceTree = "<group>"; };
+		8354EC4A259C799A00615865 /* NSAttributedString+Texture+Merge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Texture+Merge.swift"; sourceTree = "<group>"; };
 		8354EC4C259C8EE900615865 /* BaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
 		8354EC4E259D7A8000615865 /* SelectThemeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectThemeViewController.swift; sourceTree = "<group>"; };
 		9249DE7C6504FB495ED102BB /* Pods_SwiftTheme_Texture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftTheme_Texture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,8 +122,8 @@
 		8354EC47259C723F00615865 /* SwiftTheme_Texture_Ex */ = {
 			isa = PBXGroup;
 			children = (
-				8354EC48259C728500615865 /* ASDK+Theme.swift */,
-				8354EC4A259C799A00615865 /* NSAttributedString+ASDK+Merge.swift */,
+				8354EC48259C728500615865 /* Texture+Theme.swift */,
+				8354EC4A259C799A00615865 /* NSAttributedString+Texture+Merge.swift */,
 			);
 			path = SwiftTheme_Texture_Ex;
 			sourceTree = "<group>";
@@ -252,7 +252,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8354EC49259C728500615865 /* ASDK+Theme.swift in Sources */,
+				8354EC49259C728500615865 /* Texture+Theme.swift in Sources */,
 				8354EC29259C64AB00615865 /* ViewController.swift in Sources */,
 				8354EC3B259C689100615865 /* MyThemes.swift in Sources */,
 				8354EC42259C712E00615865 /* SelectThemeCell.swift in Sources */,
@@ -261,7 +261,7 @@
 				8354EC44259C716000615865 /* SwitchNightCell.swift in Sources */,
 				8354EC3D259C6B2600615865 /* ListViewController.swift in Sources */,
 				8354EC46259C717100615865 /* ChangeThemeCell.swift in Sources */,
-				8354EC4B259C799A00615865 /* NSAttributedString+ASDK+Merge.swift in Sources */,
+				8354EC4B259C799A00615865 /* NSAttributedString+Texture+Merge.swift in Sources */,
 				8354EC4F259D7A8000615865 /* SelectThemeViewController.swift in Sources */,
 				8354EC3A259C689100615865 /* GlobalPicker.swift in Sources */,
 				8354EC40259C710700615865 /* AboutCell.swift in Sources */,

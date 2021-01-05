@@ -1,5 +1,5 @@
 //
-//  NSAttributedString+Merge.swift
+//  NSAttributedString+Texture+Merge.swift
 //  SwiftTheme_Texture
 //
 //  Created by Janzen on 2020/12/30.
